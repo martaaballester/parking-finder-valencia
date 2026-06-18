@@ -16,7 +16,7 @@ st.write(
     """
 )
 
-with open("data/parking.geojson", "r", encoding="utf-8") as file:
+with open("parking.geojson", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 features = data["features"]
